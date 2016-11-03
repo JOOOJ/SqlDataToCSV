@@ -6,7 +6,7 @@ namespace SqlDataToCSV
 {
     public class DataTableToCSV
     {
-        public void Convert(DataTable table,string csvFilePath)
+        public void Write(DataTable table,string csvFilePath)
         {
             using (StreamWriter writer = new StreamWriter(csvFilePath))
             {
